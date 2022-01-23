@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* Colors */
+    --var-color-cyan: #41ADD1;
+    --var-color-yellow: #EFB008;
+    --var-color-white: #FFFFFF;
+    --var-color-black: #0F1A2A;
+    --var-color-cyan-80: #006182;
+    --var-color-cyan-100: #004157;
+    --var-color-yellow-80: #976400;
+    --var-color-neutral-10: #F6F8FC;
+    --gray: #2a324b;
+
+
+    /* Fuente */
+    font-family: 'Oswald', sans-serif;
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+*::selection{
+    background: var(--var-color-cyan);
+    color: var(--var-color-white);
+}
